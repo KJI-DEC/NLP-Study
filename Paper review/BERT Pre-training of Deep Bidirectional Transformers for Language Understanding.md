@@ -31,7 +31,7 @@
     - Pre-training: train unlabeled data; MLM, NSP
     - Fine-Tuning: fine-tuned by using labeled data from downstream task
 
-![Pre-training and Fine-Tuning](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c71e0335-7b00-4d5f-a799-8caf51f4ca7c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210801T075531Z&X-Amz-Expires=86400&X-Amz-Signature=6489db1913fe8f23e5bc36fa0c1da01b3d61909e3bf279c878e1cb5d91d58a06&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![Pre-training and Fine-Tuning](https://user-images.githubusercontent.com/71377968/135740282-b2987faf-4001-44e4-b7e2-ecebbe073d19.png)
 
 ### BERT Architecture
 
@@ -49,7 +49,7 @@
 - WordPiece embedding
 - start: [CLS] token, next sentence: [SEP]
 
-![BERT Architecture](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cc06b80c-4e6e-4128-b35c-c1c91febd03f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210801T075637Z&X-Amz-Expires=86400&X-Amz-Signature=8742f8211e8cb9ff158cc0573f0362a7430b6577284a963896f61ec7929a21f0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![BERT Architecture](https://user-images.githubusercontent.com/71377968/135740291-703e1177-3d6c-4ee9-8657-d9da77a07852.png)
 
 ### Masked LM
 
@@ -70,7 +70,7 @@
 - Task specific inputs와 outputs를 BERT에 넣은 후 end-to-end로 fine-tune
 - Fine-tuning 별로 input의 형태가 달라질 수 있음
 
-![Fine-Tuning](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a7be17a-1432-467b-acf9-9f00284af11e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210801%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210801T075455Z&X-Amz-Expires=86400&X-Amz-Signature=0d279d1ebbd7006d0e7b7ed6d883a0a8d32fd3876d2cb292e3c02279edec9163&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![Fine-Tuning](https://user-images.githubusercontent.com/71377968/135740311-2e51cca6-6ca0-4086-8265-21e557b1ab43.png)
 
 ### Ablation Studies
 
